@@ -26,7 +26,9 @@ app.get('/', function(req, res){
 });
 
 // set http server listening on a nice port
-app.listen(8080, function () {
+var port = process.env.PORT || 3000;
+
+app.listen(port, function () {
   var addr = app.address();
   console.log('   app listening on http://' + addr.address + ':' + addr.port);
 });
