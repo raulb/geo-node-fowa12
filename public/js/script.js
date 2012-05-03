@@ -1,6 +1,7 @@
 $(function(){
 
-  var IP_ADDRESS = process.env || 'localhost';
+  // if testing from a remote client, set this to your IP (eg '192.168.1.35')
+  var IP_ADDRESS = 'localhost';
 
   var User = Backbone.Model.extend({
     defaults:{
@@ -40,7 +41,7 @@ $(function(){
   var Map = Backbone.Model.extend({
     defaults:{
       lat: 40.41661,
-      lng: -3.700405,
+      lng: -0.09,
       zoom: 15,
       maxZoom: 20
     },
