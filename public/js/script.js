@@ -40,8 +40,8 @@ $(function(){
 
   var Map = Backbone.Model.extend({
     defaults:{
-      lat: 40.396764,
-      lng: -3.713379,
+      lat: 40.41661,
+      lng: -3.700405,
       zoom: 15,
       maxZoom: 20
     },
