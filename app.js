@@ -1,5 +1,4 @@
 /*
-* Websockets geochat server
 * `npm install` to install dependencies
 */
 var sio    = require('socket.io')
@@ -26,7 +25,7 @@ app.get('/', function(req, res){
 });
 
 // set http server listening on a nice port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 app.listen(port, function () {
   var addr = app.address();

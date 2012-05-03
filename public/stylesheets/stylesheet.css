@@ -1,13 +1,19 @@
 body{
-  background: #333;
+  background: #1B1B24;
   color:#fff;
   font-family: helvetica, arial, sans-serif;
 }
 
+ul, li {
+  list-style: none;
+  margin: 0 5px;
+  padding: 0;
+}
+
 h1{
   color: #fff;
-  font-size:3em;
-  font-family: 'Lobster Two', cursive;
+  font-size:2em;
+  font-family: 'Helvetica', cursive;
 }
 
 #content {
@@ -20,15 +26,28 @@ h1{
   border: 10px solid #bbb;
 }
 
-#user {margin-bottom: 5px;}
-#user input {padding:3px 5px; width:520px; font-size:14px;}
-div.your-location {background:#bbb; color:#333; padding:0 5px 5px 5px; width:510px; font-size:12px;}
+#user {
+  margin-bottom: 5px;
+}
 
-div.block {
+#user input {
+  padding:3px 5px; width:520px; font-size:14px;
+}
+
+.your-location {
+  background:#bbb; color:#333; padding:0 5px 5px 5px; width:510px; font-size:12px;}
+
+.block {
   padding:10px 5px;
-  background:#ccc;
+  background:white;
   color:#333;
   border-bottom: 1px solid #bbb;
 }
-div.block ul { margin:0;}
-div.block h4 { margin:0 0 5px 0;}
+
+.block ul {
+  margin:0;
+}
+
+.block h4 { 
+  margin:0 0 5px 0;
+}

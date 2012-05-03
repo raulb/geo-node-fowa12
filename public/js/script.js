@@ -28,7 +28,7 @@ $(function(){
         this.model.set({username:username});
 
         $(this.el).find("input").fadeOut("slow", function() {
-          $(this).parent().append("Welcome, " + username);
+          $(this).parent().append("Hi, " + username);
         });
       }
     }
@@ -110,7 +110,7 @@ $(function(){
   });
 
   var Log = Backbone.View.extend({
-    el:"#log_container",
+    el:"#logs",
     template:_.template($("#log-template").html()),
     initialize: function(){
 
