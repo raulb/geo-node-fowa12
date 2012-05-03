@@ -1,7 +1,6 @@
 $(function(){
 
-  // if testing from a remote client, set this to your IP (eg '192.168.1.35')
-  var IP_ADDRESS = 'localhost';
+  var IP_ADDRESS = process.env || 'localhost';
 
   var User = Backbone.Model.extend({
     defaults:{
