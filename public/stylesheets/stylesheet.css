@@ -17,11 +17,11 @@ h1{
 }
 
 #content {
-  width:520px;
+  width:100%;
 
 }
 #map{
-  width:500px;
+  width:100%;
   height:500px;
   border: 10px solid #bbb;
 }
@@ -31,11 +31,11 @@ h1{
 }
 
 #user input {
-  padding:3px 5px; width:520px; font-size:14px;
+  padding:3px 5px; width:100%; font-size:14px;
 }
 
 .your-location {
-  background:#bbb; color:#333; padding:0 5px 5px 5px; width:510px; font-size:12px;}
+  background:#bbb; color:#333; padding:0 5px 5px 5px; width:100%; font-size:12px;}
 
 .block {
   padding:10px 5px;
