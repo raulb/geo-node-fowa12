@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "geo_chat",
-  "description": "geospatial chat application",
+  "description": "geospatial application",
   "version": "0.0.1",
   "dependencies": {
     "express": "2.5.8",
